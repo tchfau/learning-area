@@ -12,10 +12,10 @@ html {
 
 /* Selectors to be matched up with rulesets */
 
-.card article img
-.card footer
-.card header
-.card
+.card article img  // Especificidad: 0 0 1 2
+.card footer       // Especificidad: 0 0 1 1
+.card header       // Especificidad: 0 0 1 1
+.card              // Especificidad: 0 0 1 0
 
 /* Rulesets to be matched up with selectors */
 
