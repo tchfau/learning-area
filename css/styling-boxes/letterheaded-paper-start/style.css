@@ -46,13 +46,12 @@ article {
               url(top-image.png) no-repeat left top,
               url(bottom-image.png) no-repeat left bottom;
   background-color: white;
-  border-top: 1mm solid red;
-  border-bottom: 1mm solid red;
+  border-top: 1mm solid #d20000;
+  border-bottom: 1mm solid #7ea800;
 }
 
-h1 {
-  background-image: url(logo.png);
+article h1 {
+  background: url(logo.png);
   border-radius: 64px;
-  box-shadow: 3px 3px 3px black;
+  box-shadow: 5px 5px 5px grey;
 }
-
